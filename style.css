@@ -95,3 +95,26 @@
   color: black;
   font-family: sans-serif;
 }
+
+@media screen and (min-width: 200px) and (max-width: 783px) {
+  .phoneimage img, .container{
+    width: 100%;
+    height: 100%;
+
+  }
+  .signUpForm, .phoneimage{
+    width: 100%;
+    border: 0px;
+    float: left;
+    align: center;
+  }
+  .info-list {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+}
