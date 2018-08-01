@@ -1,55 +1,97 @@
-.container-left{
-  box-sizing: border-box;
-  float: left;
-}
-
-.container-right{
-  box-sizing: border-box;
-  float: right;
-  width: 350px;
-  height: 630px;
-  border: 2px solid gray;
-}
-
-.block{
-  width: 300px;
-  height: 30px;
-  background-color: rgb(20,146,243);
-  color: white;
-}
-
-p{
-  color: gray;
-  text-align: center;
-  font-size: 15px;
-}
-
-main{
-  width: 830px;
+.container{
   margin: auto;
-
+  margin-top: 50px;
+  width: 745px;
 }
 
-.Form-box{
-  width: 250px;
-  height: 25px;
-  align: center
-}
-footer{
-  clear: both;
-}
-footer ul{
-
-  list-style-type: none;
-}
-
-footer ul li{
-  font-size: 12px;
+.phoneimage{
+  width: 400px;
   display: inline-block;
+  text-align: center;
 
 }
 
-a{
+.phoneimage img{
+  width: 355px;
+  height: auto;
+  margin-top: 60px;
+
+}
+
+.signUpForm{
+  width: 340px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-family: sans-serif;
+  border: 2px solid rgb(242,242,242);
+
+}
+
+.imageHeader img{
+  margin-top: 10px;
+  width: 195px;
+
+}
+
+.signUpForm p{
+  font-size: 15px;
+  font-style: bold;
+  width: 200px;
+  color: #999;
+  margin: auto;
+}
+.signUpForm p a{
+  text-decoration: none;
+  color: rgb(20,146,243);
+}
+.button{
+  background-color: #3897fa;
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 4px 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 3px;
+  font-style: bold;
+
+}
+
+.signUpForm input{
+  width: 70%;
+  height: 25px;
+  margin-top: 7px;
+}
+
+.container-right1 img{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 105px;
+}
+
+.container-copyright{
+  margin-top: 100px;
+  float: right;
+}
+
+.info-list{
+  margin: auto;
+  margin-top: 50px;
+  width: 900px;
+}
+
+.info-list li{
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 11px;
+  font-family: sans-serif;
+
+}
+
+.info-list a{
   text-decoration: none;
   color: black;
+  font-family: sans-serif;
 }
