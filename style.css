@@ -1,0 +1,55 @@
+.container-left{
+  box-sizing: border-box;
+  float: left;
+}
+
+.container-right{
+  box-sizing: border-box;
+  float: right;
+  width: 350px;
+  height: 630px;
+  border: 2px solid gray;
+}
+
+.block{
+  width: 300px;
+  height: 30px;
+  background-color: rgb(20,146,243);
+  color: white;
+}
+
+p{
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+main{
+  width: 830px;
+  margin: auto;
+
+}
+
+.Form-box{
+  width: 250px;
+  height: 25px;
+  align: center
+}
+footer{
+  clear: both;
+}
+footer ul{
+
+  list-style-type: none;
+}
+
+footer ul li{
+  font-size: 12px;
+  display: inline-block;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
