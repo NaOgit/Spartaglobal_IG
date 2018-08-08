@@ -3,21 +3,16 @@
   margin-top: 50px;
   width: 745px;
 }
-
 .phoneimage{
   width: 400px;
   display: inline-block;
   text-align: center;
-
 }
-
 .phoneimage img{
   width: 355px;
   height: auto;
   margin-top: 60px;
-
 }
-
 .signUpForm{
   width: 340px;
   display: inline-block;
@@ -25,15 +20,11 @@
   text-align: center;
   font-family: sans-serif;
   border: 2px solid rgb(242,242,242);
-
 }
-
 .imageHeader img{
   margin-top: 10px;
   width: 195px;
-
 }
-
 .signUpForm p{
   font-size: 15px;
   font-style: bold;
@@ -56,40 +47,32 @@
   margin-top: 10px;
   border-radius: 3px;
   font-style: bold;
-
 }
-
 .signUpForm input{
   width: 70%;
   height: 25px;
   margin-top: 7px;
 }
-
 .container-right1 img{
   margin-top: 10px;
   margin-bottom: 20px;
   width: 105px;
 }
-
 .container-copyright{
   margin-top: 100px;
   float: right;
 }
-
 .info-list{
   margin: auto;
   margin-top: 50px;
   width: 900px;
 }
-
 .info-list li{
   display: inline-block;
   margin-top: 50px;
   font-size: 11px;
   font-family: sans-serif;
-
 }
-
 .info-list a{
   text-decoration: none;
   color: black;
@@ -100,7 +83,6 @@
   .phoneimage img, .container{
     width: 100%;
     height: 100%;
-
   }
   .signUpForm, .phoneimage{
     width: 100%;
@@ -116,5 +98,4 @@
     text-align: center;
     margin-left: 0px;
   }
-
 }
